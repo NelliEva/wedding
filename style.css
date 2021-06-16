@@ -21,35 +21,38 @@ img {
 }
 .firstpage{
 	padding-top: 1em;
-	padding-left: 7em;
-	padding-right: 7em;
+	padding-left: 3em;
+	padding-right: 3em;
 	display: inline-block;
 	float: left;
 }
 .leftpage{
 	display: inline-block;
 	float: left;
-	width: 300px;
+	width: 400px;
 	height: 600px;
 	margin-top: 1em;
-	margin-left: 3em;
+	margin-left: 1em;
 	background-color: rgba(95, 95, 95, 0.05);
 	
 	}
 .rightpage{
 	display: inline-block;
 	float: left;
-	width: 300px;
+	width: 400px;
 	height: 600px;
 	margin-top: 1em;
-	margin-right: 3em;
+	margin-right: 1em;
 	background-color: rgba(95, 95, 95, 0.05);
+
 
 }
 li{
 	list-style-type: none;
 	text-align: center;
 	padding-top: 10em;
+	padding-bottom: 0px;
+
 
 
 
@@ -58,12 +61,21 @@ a{
 	text-decoration: none;
 	color: black;
 	font-family: 'Crimson Text', serif;
-	font-size: 40px;
+	font-size: 30px;
 	color:rgba(95, 95, 95, 0.2);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:rgba(117, 159, 84, 0.5);
 
 
+
 }
 ul{
+
+}
+
+a:hover{
+	background-color: white;
+	color: black;
+
+
 }
