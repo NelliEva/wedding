@@ -1,6 +1,7 @@
 
 body{
 	background-color: rgba(240, 155, 179, 0.3);
+	text-align: center;
 }
 h1{
 	text-align: center;
@@ -40,6 +41,10 @@ button{
 	margin-top: 8em;
 	margin-left: 3.5em;
 
+
+}
+button:hover {
+	cursor: pointer;
 
 }
 .homepage{

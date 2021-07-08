@@ -2,6 +2,7 @@ html,body{
   width:100%;
   margin:0;
   padding:0;
+
 }
 body{
 	 animation: fadeInAnimation ease 5s;
@@ -128,6 +129,7 @@ img{
 	padding-bottom: 0.5em;
 	line-height: 200%;
 	background-color: grey;
+	border-radius:  30px;
 
 }
 .p2{
@@ -141,6 +143,7 @@ img{
 	margin-top: 0;
 	margin-bottom: 0px;
 	line-height: 200%;
+
 }
 .p3{
 	float: right;
@@ -153,6 +156,7 @@ img{
 	margin-bottom: 3em;
 	line-height: 200%;
 	background-color: grey;
+	border-radius:  30px;
 }
 .p4{
 	float: left;
@@ -182,7 +186,10 @@ button{
 	font-weight: bold;
 }
 .btn{
-	margin-top: 3em;
-	margin-left: 3.5em;
+	text-align: center;
+
+}
+button:hover {
+	cursor: pointer;
 
 }

@@ -1,3 +1,6 @@
+html, body{
+	text-align: center;
+}
 body{
 	background-color: rgba(255, 233, 196, 0.6);
 }
@@ -16,4 +19,16 @@ body{
 }
 .video{
 	text-align: center;
+	
+}
+button{
+	border-radius:  10% / 50%;
+	width: 10em;
+	height: 4em;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+button:hover {
+	cursor: pointer;
+
 }

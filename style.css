@@ -1,5 +1,5 @@
 body{
-	 animation: fadeInAnimation ease 5s;
+	 animation: fadeInAnimation ease 3s;
      animation-iteration-count: 1;
      animation-fill-mode: forwards;
 
@@ -57,8 +57,8 @@ li{
 
 }
 a{
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
 	font-family: 'Crimson Text', serif;
 	font-size: 30px;
 	color:rgba(95, 95, 95, 0.2);
@@ -75,6 +75,7 @@ ul{
 a:hover{
 	background-color: white;
 	color: black;
+	text-decoration: underline;
 
 
 }
