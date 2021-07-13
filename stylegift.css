@@ -63,9 +63,9 @@ button:hover {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
 	button{ width:10em ; height: 3em; font-size: 1.7em; }
-	input{height: 3em; width: 23em;}
+	input{height: 5em; width: 26em;}
 	a{font-size: 1.5em;}
 	label{font-size: 3em;}
 	p{font-size: 2.3em;margin-left: 2em;margin-right: 2em;}
-	h1{font-size: 5em;margin-bottom: 1em; padding-top: 1em;}
+	h1{font-size: 7em;margin-bottom: 1em; padding-top: 1em;}
 	}
