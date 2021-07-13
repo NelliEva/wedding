@@ -81,12 +81,12 @@ a:hover{
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
 	body{background-color: rgba(95, 95, 95, 0.05);}
-	img{width: 700px;height:1200px; margin-top: 7em; padding-right: 1em;;}
+	img{width: 700px;height:1200px; margin-top: 7em; padding-right:2em; border:0px; box-shadow: none;}
 	.firstpage{padding: 0px;width: 700px;height:900px;float: right;}
-	.leftpage{width: 250px;height: 400px; margin-left: 0px;padding-top: 17em; background-color: rgba(95, 95, 95, 0);}
+	.leftpage{ width: 250px;height: 400px; margin-left: 0px;padding-top: 17em; background-color: rgba(95, 95, 95, 0);}
 	.rightpage{width: 250px;height: 400px; margin-right: 0px;padding: 0px; background-color: rgba(95, 95, 95, 0);}
 	li{padding-top: 5em;}
-	a{font-size: 70px;}
+	a{font-size: 70px;text-decoration: underline;}
 	
   /*.container {display: block; }
   .pic{height: 600px;}
