@@ -81,7 +81,7 @@ a:hover{
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
 	body{background-color: rgba(95, 95, 95, 0.05);}
-	img{width: 650px;height:1150px; margin-top: 7em; margin-right: 0px; padding-right: 0px; border:0px; box-shadow: none;}
+	img{width: 650px;height:1150px; margin-top: 7em; margin-right: 0px; padding-right: 0px; border:1px solid rgba(134, 140, 145, 0.7); box-shadow: none;}
 	.firstpage{padding: 0px;width: 700px;height:900px;float: right;}
 	.leftpage{ width: 250px;height: 400px; margin-left: 0px;padding-top: 17em; background-color: rgba(95, 95, 95, 0);}
 	.rightpage{width: 250px;height: 400px; margin-right: 0px; margin-left: 0px; padding: 0px; background-color: rgba(95, 95, 95, 0);}
