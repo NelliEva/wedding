@@ -79,3 +79,23 @@ a:hover{
 
 
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+	body{background-color: rgba(95, 95, 95, 0.05);}
+	img{width: 700px;height:900px; margin-top: 12em; padding: 0px;}
+	.firstpage{padding: 0px;width: 700px;height:900px;float: right;}
+	.leftpage{width: 250px;height: 400px; margin-left: 0px;padding-top: 10em; background-color: rgba(95, 95, 95, 0);}
+	.rightpage{width: 250px;height: 400px; margin-right: 0px;padding: 0px; background-color: rgba(95, 95, 95, 0);}
+	li{padding-top: 5em;}
+	a{font-size: 50px;}
+	
+  /*.container {display: block; }
+  .pic{height: 600px;}
+   img{ width: 450px; height: 450px; padding-bottom: 20px;}
+   h2 {font-size: 5vw; }
+   h1 {font-size: 6vw; height: 90px;}
+   .nav li{ justify-content: center; height: 100px; width: 190px;
+   	margin: auto; text-align: center; padding-top: 30px; margin-left: 2px; margin-right: 2px; margin-top: 20px;
+   	display: inline-block;}
+   .nav a{font-size: 40px; font-weight: bold; }*/
+
+ }
