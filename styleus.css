@@ -1,49 +1,63 @@
 body{
 	background-color: rgba(255, 192, 167, 0.1);
-	/*animation: fadeInAnimation ease 3s;
+     animation: fadeInAnimation ease 3s;
      animation-iteration-count: 1;
-     animation-fill-mode: forwards;*/
+     animation-fill-mode: forwards;
 
 }
-/*@keyframes fadeInAnimation {
+@keyframes fadeInAnimation {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
      }
-}*/
+}
 h1{
 	font-family: 'Indie Flower', cursive;
+	color: rgba(255, 192, 167, 0.7);
 	font-style: italic;
-	font-size: 4em;
-	margin-bottom: 0px;
+	font-size: 5em;
+	margin-bottom: 0.5em;
+	margin-right: 2em;
+	margin-left: 2em;
+	border-left: 0px;
+	border-right: 0px;
 	position: relative;
-	animation: mymove 5s;
-	animation-timing-function: linear;
+	animation: mymove 4s;
+	animation-timing-function: ease-in;
+	text-decoration: underline;
+	padding-left: 32%;
+	padding-bottom: 0px;
+	/*border-bottom: 4px solid grey rgba(255, 192, 167, 0.5);
+*/
+
+
+
 }
-@keyframes mymove {
+/*@keyframes mymove {
  
-  from {left: 0px;}
-  to {left: 200px;}
-
-
-}
-.underline {
+  from {left: 3em;}
+  to {left: 0px;}
+}*/
+  
+/*.underline {
+	width: 4em;
 	border-bottom: 0.5em solid currentColor;
     display: inline-block;
     line-height: 0.6;
     margin-bottom: 0.8em;
-    animation: myeasein 5s;
-	animation-timing-function: ease-in;
-}
-@keyframes myeasein {
+  	animation: myeasein ease 4s;
+   
+}*/
+/*@keyframes myeasein {
  
   from {left: 0px;}
   to {left: 200px;}
+  {width: 200px;}
 
 
-}
+}*/
 
 .firstblock{
 	display: flex;
@@ -51,6 +65,7 @@ h1{
 	justify-content: space-around;
 
 }
+
 .firsttext{
 	display: flex;
 	align-items: center;
@@ -62,17 +77,22 @@ h1{
 	align-items: center;
 	justify-content: center;
 	margin-top: 2em;
+	background-color: rgba(0, 0, 0, 0.5);
+
 }
 
-.text{
+.secondtext{
 	float: right;
 	margin: 0 6em;
+	color: white;
+	
 }
-.image{
+.secondimage{
 	margin-right: 8em;
 }
 
 .thirdblock {
+	margin-top: 2em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -99,6 +119,8 @@ h1{
 .forthtext{
 	margin-left: 1em;
 	margin-right: 1em;
+	 background-color: rgba(0, 0, 0, 0.5);
+	 color: white;
 }
 .paw {
 	padding-right: 5em;
@@ -111,6 +133,7 @@ h1{
 .imagefor{
     margin-bottom: 4em;
 
+
 }
 p{
 	font-style: italic;
@@ -120,13 +143,17 @@ p{
 }
 button{
 	border-radius:  10% / 50%;
+	border:2px solid rgba(255, 192, 167, 0.7);
+	background-color: rgba(255, 192, 167, 0.1);
 	width: 10em;
 	height: 4em;
 	margin-bottom: 1em;
 	font-weight: bold;
+	color: rgba(255, 192, 167, 1);
 }
 .btn{
 	text-align: center;
+
 
 }
 button:hover {
