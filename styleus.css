@@ -32,33 +32,7 @@ h1{
 	/*border-bottom: 4px solid grey rgba(255, 192, 167, 0.5);
 */
 
-
-
 }
-/*@keyframes mymove {
- 
-  from {left: 3em;}
-  to {left: 0px;}
-}*/
-  
-/*.underline {
-	width: 4em;
-	border-bottom: 0.5em solid currentColor;
-    display: inline-block;
-    line-height: 0.6;
-    margin-bottom: 0.8em;
-  	animation: myeasein ease 4s;
-   
-}*/
-/*@keyframes myeasein {
- 
-  from {left: 0px;}
-  to {left: 200px;}
-  {width: 200px;}
-
-
-}*/
-
 .firstblock{
 	display: flex;
 	align-items: center;
@@ -160,3 +134,21 @@ button:hover {
 	cursor: pointer;
 
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+	h1{font-size: 10em; margin-right: 0em; margin-left: 0em; text-align: center; padding-left: 0;}
+	.firsttext{width: 100%; font-size: 2.5em;}
+	.secondblock{display: inline-block;text-align: center;  margin-left: 2.5em; margin-right: 0em; padding-right: 2em; padding-left: 2em;}
+	.secondtext{float: none;width: 100%; font-size: 2.5em; display: inline; margin: 0px; padding-bottom: 0px;}
+	.secondimage{ margin:0; text-align: center; }
+	.alex{width: 700px ; height: 850px; padding-bottom: 6em; padding-top: 2em; margin-top: 0px;}
+	.thirdblock{display: inline-block;}
+	.thirdtext{width: 100%; font-size: 3.5em; margin:0; background-image: url(paw.png); background-size: 1000px; background-repeat: no-repeat; }
+	.kna{width: 800px; height: 700px;}
+	.paw{display: none;}
+	.foot{display: none;}
+	.forthblock{ display: inline-block; }
+	.forthtext{text-align: center; float: none;width: 100%; font-size: 3.5em; display: inline; margin: 0px; padding-bottom: 0px; padding-right: 0px;}
+	.imagefor{text-align: center;}
+	.familly{width: 700px; height: 600px;}
+	button{width: 12em; height: 5em; font-size: 2.3em;}
+	}
