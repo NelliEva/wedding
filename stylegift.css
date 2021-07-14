@@ -8,22 +8,48 @@ h1{
 	color: white;
 	font-size: 3em;
 	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	text-decoration: underline;
 }
 p{
-	margin-bottom: 4em;
+	margin-bottom: 8em;
 	margin-top: 0px;
 	text-align: center;
 	margin-left: 5em;
 	margin-right: 5em;
+	font-style: italic;
+	font-size: 2em;
+	line-height: 200%;
+}
+
+.intro{
+	margin-bottom: 1em;
+}
+img{
+	margin-top: 2em;
+	padding-top: 0px;
+	margin-bottom: 3em;
+	text-align: center;
 }
 
 div{
 	text-align: center;
 }
+.registry{
+	background-color: white;
+	border-radius: 30px;
+	margin-bottom: 2em;
+}
+.amazon{
+	font-size: 2em;
+	text-align: center;
+	background-color: rgba(240, 155, 179, 0.5);
+	color: white;
 
-label{
+
+}
+
+/*label{
 	font-size: 1.3em;
 }
 input{
@@ -32,22 +58,37 @@ input{
 }
 .psw{
 	margin-right: 1.8em;
-}
+}*/
 button{
 	border-radius:  10% / 50%;
-	width: 7em;
-	height: 3em;
+	width: 9em;
+	height: 4em;
+	background-color: rgba(240, 155, 179, 0.1);
 }
-.btn{
+/*.btn{
 	margin-top: 3em;
 	margin-left: 3.5em;
 
+}*/
+.donation{
+	margin-top: 3em;
+	margin-bottom: 2em;
 }
+.donsite{
+	margin-top: 1em;
+	color: white;
+	background-color: rgba(240, 155, 179, 0.4);
+	
 
+
+}
+a:hover{
+	cursor: pointer;
+	color: rgba(95, 95, 95, 1);
+
+}
 .btn2{
-	margin-top: 8em;
-	margin-left: 3.5em;
-
+	text-align: center;
 
 }
 button:hover {
@@ -66,6 +107,12 @@ button:hover {
 	input{height: 5em; width: 26em;}
 	a{font-size: 1.5em;}
 	label{font-size: 3em;}
-	p{font-size: 2.3em;margin-left: 2em;margin-right: 2em;}
-	h1{font-size: 7em;margin-bottom: 1em; padding-top: 1em;}
+	p{font-size: 4em;margin-left: 2em;margin-right: 2em;}
+	h1{font-size: 7em;margin-bottom: 2em; padding-top: 0;}
+	.psw{margin-right: 8em;}
+	.email{margin-right: 4em;}
+	.donation{margin-top: 2em; margin-bottom: 1em;}
+	.donsite{font-size: 0.6em; padding-left: 0px; margin-left: 0; display: inline-block;}
+	.registry{display: inline-block;}
+	.amazon{font-size: 4em;}
 	}
