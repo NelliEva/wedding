@@ -48,7 +48,7 @@ img {
 	/*margin-top: 1em;
 	margin-left: 1.7em;*/
 	background-color: rgba(95, 95, 95, 0.05);
-	flex-grow: 1;
+	/*flex-grow: 1;*/
 
 	
 	}
@@ -62,7 +62,7 @@ img {
 	height: 600px;
 	/*margin-top: 1em;*/
 	background-color: rgba(95, 95, 95, 0.05);
-	flex-grow: 1;
+	/*flex-grow: 1;*/
 
 
 
@@ -130,8 +130,11 @@ a:hover{
 	li{padding-top: 5em; padding-left: 0;}
 	a{font-size: 70px;text-decoration: underline;}
  }
- @media only screen and (min-device-width:1600px) and (max-device-width: 1919px){
-
+ @media only screen and (min-device-width:1201px) and (max-device-width: 1281px){
+ 	.leftpage{width: 300px; height: 600px; }
+ 	.rightpage{width: 300px; height: 600px; }
+ 	.firstpage{margin-left: 0; margin-right: 0;}
+ 	li{padding-left: 4em;}
  }
 
  @media only screen and (min-device-width:1920px) and (max-device-width: 4000px){
