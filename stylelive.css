@@ -44,7 +44,7 @@ button:hover {
 	cursor: pointer;
 
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 1200px) {
 	#demo{margin-right: 1em; margin-left: 1em; font-size: 7em;}
 	p{font-size: 4em;}
 	button{margin-top: 3em; width:12em ; height: 5em; font-size: 1.6em;}

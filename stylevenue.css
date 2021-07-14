@@ -193,7 +193,7 @@ button:hover {
 	cursor: pointer;
 
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 1200px) {
 	h1{font-size: 7em; margin-left: 0.5em; margin-right: 0.5em;}
 	h2{font-size: 4em; margin-left: 0.4em; margin-right: 0.4em;}
 	h3{font-size: 2.5em; margin-top: 4em; margin-left: 0px;}
@@ -206,7 +206,7 @@ button:hover {
 	button{width: 16em; height: 6em; font-size: 2em;}
 	p{padding-left: 1em; padding-right:1em; }
 	}
-@media only screen and (min-device-width:1201px) and (max-device-width: 1281px){
+@media only screen and (min-device-width:1201px) and (max-device-width: 1298px){
 	.img00{margin-right: 0; margin-top: 2em;}
 }
 @media only screen and (min-device-width: 1900px)and (max-device-width: 4000px) {
