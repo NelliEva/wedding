@@ -19,29 +19,43 @@ img {
 	border: 1px solid rgba(134, 140, 145, 0.7);
  
 }
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
 .firstpage{
-	padding-top: 1em;
+	/*padding-top: 1em;
 	padding-left: 3em;
-	padding-right: 3em;
-	display: inline-block;
-	float: left;
+	padding-right: 3em;*/
+	/*display: inline-block;*/
+	display: flex;
+	flex-wrap: nowrap;
+	/*float: left;*/
+	float: none;
 }
 .leftpage{
-	display: inline-block;
-	float: left;
+	/*display: inline-block;*/
+	display: flex;
+	/*float: left;*/
+	float: none;
 	width: 400px;
 	height: 600px;
-	margin-top: 1em;
-	margin-left: 1.7em;
+	/*margin-top: 1em;
+	margin-left: 1.7em;*/
 	background-color: rgba(95, 95, 95, 0.05);
 	
 	}
 .rightpage{
-	display: inline-block;
-	float: left;
+	/*display: inline-block;*/
+	display: flex;
+	flex-wrap: wrap;
+	/*float: left;*/
+	float: none;
 	width: 400px;
 	height: 600px;
-	margin-top: 1em;
+	/*margin-top: 1em;*/
 	background-color: rgba(95, 95, 95, 0.05);
 
 
@@ -50,6 +64,7 @@ li{
 	list-style-type: none;
 	text-align: center;
 	padding-top: 10em;
+	padding-left: 8em;
 	padding-bottom: 0px;
 
 
@@ -79,23 +94,22 @@ a:hover{
 
 
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 1200px) {
 	body{background-color: rgba(95, 95, 95, 0.05);}
 	img{width: 650px;height:1150px; margin-top: 7em; margin-right: 0px; padding-right: 0px; border:1px solid rgba(134, 140, 145, 0.7); box-shadow: none;}
 	.firstpage{padding: 0px;width: 700px;height:900px;float: right;}
 	.leftpage{ width: 250px;height: 400px; margin-left: 0px;padding-top: 17em; background-color: rgba(95, 95, 95, 0);}
 	.rightpage{width: 250px;height: 400px; margin-right: 0px; margin-left: 0px; padding: 0px; background-color: rgba(95, 95, 95, 0);}
-	li{padding-top: 5em;}
+	li{padding-top: 5em; padding-left: 0;}
 	a{font-size: 70px;text-decoration: underline;}
-	
-  /*.container {display: block; }
-  .pic{height: 600px;}
-   img{ width: 450px; height: 450px; padding-bottom: 20px;}
-   h2 {font-size: 5vw; }
-   h1 {font-size: 6vw; height: 90px;}
-   .nav li{ justify-content: center; height: 100px; width: 190px;
-   	margin: auto; text-align: center; padding-top: 30px; margin-left: 2px; margin-right: 2px; margin-top: 20px;
-   	display: inline-block;}
-   .nav a{font-size: 40px; font-weight: bold; }*/
+ }
 
+ @media only screen and (min-device-width:1900px) and (max-device-width: 4000px){
+ 	.container{margin-top: 4em;}
+ 	.leftpage{width: 800px; height: 1500px;}
+ 	.firstpage{margin-top: 7em;}
+ 	img{width: 800px; height: 1300px;}
+ 	.rightpage{width: 800px; height: 1500px;}
+ 	a{font-size: 7em; line-height: 3em;padding-left: 1em;}
+ 	
  }
