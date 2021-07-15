@@ -134,13 +134,13 @@ button:hover {
 	cursor: pointer;
 
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 1200px) {
+@media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
 	h1{font-size: 12em; margin-right: 0em; margin-left: 0em; text-align: center; padding-left: 0;}
 	.firstblock{margin-right: 0px; padding-right: 0px;}
 	.rosering{display: none;}
 	.rose, .shadow { padding-right: 0px; margin-right: 0px; display: inline;}
 	.firsttext{width: 100%; font-size: 2.5em; text-align: center; margin-left: 0px;}
-	.secondblock{display: inline-block;  margin-left: 2.5em; margin-right: 0em; padding-right: 2em; padding-left: 2em;}
+	.secondblock{display: inline-block;  margin-left: 0; margin-right: 0em; padding-right: 2em; padding-left: 2em;}
 	.secondtext{float: none;width: 100%; font-size: 2.5em; display: inline; margin: 0px; padding-bottom: 0px; text-align: center;}
 	.secondimage{ margin:0; text-align: center; }
 	.alex{width: 700px ; height: 850px; padding-bottom: 6em; padding-top: 2em; margin-top: 0px;}

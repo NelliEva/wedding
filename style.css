@@ -87,13 +87,7 @@ a{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:rgba(117, 159, 84, 0.5);
 
-
-
 }
-ul{
-
-}
-
 a:hover{
 	background-color: white;
 	color: black;
@@ -101,34 +95,76 @@ a:hover{
 
 
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 1200px) {
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(118, 93, 105, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  
+
+}
+.sidenav li{
+	padding: 1em 0;
+	margin: 0;
+	text-align: center;
+	width: 30%;
+	margin-right: 0;
+
+
+}
+.sidenav ul{
+margin-left: 30em;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+ /* margin-left: 50px;*/
+}
+.dropbtn{
+	margin-top: 3em;
+	font-size: 1.2em;
+	color: rgba(95, 95, 95, 0.8);
+	border:none;
+	font-family: 'Crimson Text', serif;
+}
+.dropbtn:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	text-decoration: underline;
+}
+.btn{
+	text-align: center;
+}
+@media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
 	.container{display: inline-block;}
 	body{background-color: rgba(95, 95, 95, 0.05);}
 	img{width: 650px;height:1150px; margin-top: 1em; margin-right: 0px; padding-right: 0px; border:1px solid rgba(134, 140, 145, 0.7); box-shadow: none;}
-	.firstpage{ 
-		float: right; 
-		padding-right: 0;
-		float: right; 
-		margin-right: 1em;
-		margin-top: 2em;}
-	.leftpage{  
-		float: left; 
-		width: 250px;
-		height: 400px; 
-		margin-left: 0px;
-		padding-top: 17em; 
-		background-color: rgba(95, 95, 95, 0);}
-	.rightpage{ 
-		float:left; 
-		width: 250px;
-		height: 400px;
-		margin-top: 0; 
-		margin-right: 0px; 
-		margin-left: 0px; 
-		padding: 0px; 
-		background-color: rgba(95, 95, 95, 0);}
+	.firstpage{float: right; padding-right: 0;float: right; margin-right: 1em;margin-top: 2em;}
+	.leftpage{  float: left; width: 250px;height: 400px; margin-left: 0px;padding-top: 17em; background-color: rgba(95, 95, 95, 0);}
+	.rightpage{ float:left; width: 250px;height: 400px;margin-top: 0; margin-right: 0px; margin-left: 0px; padding: 0px; background-color: rgba(95, 95, 95, 0);}
 	li{padding-top: 5em; padding-left: 0;}
 	a{font-size: 70px;text-decoration: underline;}
+	.sidenav a{font-size: 5em;}
+	.sidenav ul{margin-left: 20em;}
+    .dropbtn{font-size: 3em; }
+}
  }
  @media only screen and (min-device-width:1201px) and (max-device-width: 1281px){
  	.leftpage{width: 300px; height: 600px; }
@@ -139,10 +175,12 @@ a:hover{
 
  @media only screen and (min-device-width:1920px) and (max-device-width: 4000px){
  	.container{ align-items: center; margin-top: 4em; margin-left: -2%;}
- 	.leftpage{width: 600px; height: 1500px; flex-grow:0;/* margin-left: auto; margin-right: auto;*/padding-left: 0; padding-right: 0}
- 	.firstpage{margin-top: 7em; /*margin-left: auto; margin-right: auto;*/ padding-left: 0; padding-right: 0}
+ 	.leftpage{width: 600px; height: 1500px; flex-grow:0;padding-left: 0; padding-right: 0}
+ 	.firstpage{margin-top: 7em; padding-left: 0; padding-right: 0}
  	img{width: 600px; height: 1200px;}
- 	.rightpage{width: 600px; height: 1500px;flex-grow: 0; /*margin-left: auto; margin-right: auto;*/padding-left: 0; padding-right: 0}
+ 	.rightpage{width: 600px; height: 1500px;flex-grow: 0;padding-left: 0; padding-right: 0}
  	a{font-size: 5em; line-height: 3em;padding-left: 1em;}
- 	
+ 	.sidenav a{font-size: 5em;}
+	.sidenav ul{margin-left: 60em;}
+	 .dropbtn{font-size: 3em; }	
  }
