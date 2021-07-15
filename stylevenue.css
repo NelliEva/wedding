@@ -208,6 +208,7 @@ button:hover {
 	}
 @media only screen and (min-device-width:1201px) and (max-device-width: 1298px){
 	.img00{margin-right: 0; margin-top: 2em;}
+	.img3{transform: none;}
 }
 @media only screen and (min-device-width: 1900px)and (max-device-width: 4000px) {
 	h1{font-size: 10em;}
