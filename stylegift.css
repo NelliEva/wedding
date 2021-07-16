@@ -31,7 +31,6 @@ img{
 	margin-bottom: 3em;
 	text-align: center;
 }
-
 div{
 	text-align: center;
 }
@@ -45,31 +44,15 @@ div{
 	text-align: center;
 	background-color: rgba(240, 155, 179, 0.5);
 	color: white;
-
-
 }
 
-/*label{
-	font-size: 1.3em;
-}
-input{
-	height: 1.7em;
-	border-radius: 30px;
-}
-.psw{
-	margin-right: 1.8em;
-}*/
 button{
 	border-radius:  10% / 50%;
 	width: 9em;
 	height: 4em;
 	background-color: rgba(240, 155, 179, 0.1);
+	color: rgba(0, 0, 0; 0.5);
 }
-/*.btn{
-	margin-top: 3em;
-	margin-left: 3.5em;
-
-}*/
 .donation{
 	margin-top: 3em;
 	margin-bottom: 2em;
@@ -78,9 +61,6 @@ button{
 	margin-top: 1em;
 	color: white;
 	background-color: rgba(240, 155, 179, 0.4);
-	
-
-
 }
 a:hover{
 	cursor: pointer;
@@ -102,19 +82,22 @@ button:hover {
 	width: 7em;
 	height: 3em;
 }
+button{
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.5);
+}
+
 @media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
 	h1{font-size: 7em;margin-bottom: 2em; padding-top: 0;}
 	.registry{display: inline-block;}
 	.amazon{font-size: 4em;}
 	.donation{margin-top: 2em; margin-bottom: 1em;}
 	.donsite{font-size: 0.6em; padding-left: 0px; margin-left: 0; display: inline-block;}
-	button{ width:10em ; height: 3em; font-size: 1.7em; }
-	/*input{height: 5em; width: 26em;}*/
+	button{width: 9em; height: 4em; font-size: 2em; }
 	a{font-size: 1.5em;}
-	/*label{font-size: 3em;}*/
 	p{font-size: 4em;margin-left: 2em;margin-right: 2em;}
-	/*.psw{margin-right: 8em;}
-	.email{margin-right: 4em;}*/
 	}
  @media only screen and (min-device-width: 1900px)and (max-device-width: 4000px) {
  	h1{font-size: 10em;}

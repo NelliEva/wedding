@@ -39,6 +39,9 @@ button{
 	margin-bottom: 1em;
 	font-weight: bold;
 	 background-color: rgba(255, 233, 196, 0.6);
+	 color: rgba(0, 0, 0; 1);
+	 font-family: 'Indie Flower', cursive;
+	 font-size: 1.2em;
 }
 button:hover {
 	cursor: pointer;
@@ -47,7 +50,7 @@ button:hover {
 @media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
 	#demo{margin-right: 1em; margin-left: 1em; font-size: 7em;}
 	p{font-size: 4em;}
-	button{margin-top: 3em; width:12em ; height: 5em; font-size: 1.6em;}
+	button{margin-top: 3em; width:9em ; height: 4em; font-size: 3em;}
 	a{font-size: 1.3em;}
 
 	}
@@ -55,7 +58,7 @@ button:hover {
 	#demo{font-size: 10em;text-align: center; margin-left: 2em; margin-right: 2em;}
 	p{font-size: 6em;}
 	nav{margin-top: 12em;}
-	button{width: 20em; height: 5em; font-size: 2em;}
+	button{width: 10em; height: 5em; font-size: 3em;}
 	a{font-size: 1em;}
 
 

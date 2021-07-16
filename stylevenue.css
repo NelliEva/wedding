@@ -105,6 +105,9 @@ img{
 	margin-right: 2em;
 	margin-top: 4em;
 }
+p{
+	padding-top: 1em;
+}
 .p1{
 	width: 40%;
 	text-align: center;
@@ -160,6 +163,9 @@ button{
 	margin-bottom: 1em;
 	font-weight: bold;
 	background-color: rgba(156, 173, 224, 0.2);
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.2em;
 }
 .btn{
 	text-align: center;
@@ -179,7 +185,7 @@ button:hover {
 	.img1,.img2, .img3, .img4{margin-right: 0;width: 700px; height: 700px;}
 	.p1,.p3{ width: 100%; font-size: 3em;border-radius: 0px; margin-left: 0;}
 	.p2, .p4{ width: 100%; font-size: 3em;margin-right: 0;}
-	button{width: 16em; height: 6em; font-size: 2em;}
+	button{width: 9em; height: 4em; font-size: 3em;}
 	p{padding-left: 1em; padding-right:1em; }
 	}
 @media only screen and (min-device-width: 1900px)and (max-device-width: 4000px) {
@@ -189,7 +195,7 @@ button:hover {
 	.img00{width: 1200px; height: 1200px; margin-right: 4em; margin-top: 6em;}
 	.img1, .img3{ width: 1000px; height: 1000px;  margin-top: 15em; margin-right: 0;}
 	.p1, .p3{font-size: 4em; margin-right: 0; margin-top: 1em; width: 50%;margin-bottom: 0px;}
-	.img2, .img4{width: 1000px; height: 1000px; margin-right: 0; margin-top: 22em;}
+	.img2, .img4{width: 1000px; height: 1000px; margin-right: 0; margin-top: 35em;}
 	.p2, .p4{font-size: 4em; width: 45%; }
 	button{width: 9em; height: 4em; font-size: 2em;}
 
