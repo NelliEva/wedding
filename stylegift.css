@@ -102,7 +102,7 @@ button:hover {
 	width: 7em;
 	height: 3em;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 1200px) {
+@media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
 	h1{font-size: 7em;margin-bottom: 2em; padding-top: 0;}
 	.registry{display: inline-block;}
 	.amazon{font-size: 4em;}
