@@ -142,7 +142,7 @@ margin-left: 30em;
 	.leftpage{  float: left; width: 250px;height: 400px; margin-left: 0px;padding-top: 17em; background-color: rgba(95, 95, 95, 0);}
 	.rightpage{ float:left; width: 250px;height: 400px;margin-top: 0; margin-right: 0px; margin-left: 0px; padding: 0px; background-color: rgba(95, 95, 95, 0);}
 	li{padding-top: 5em; padding-left: 0;}
-	a{font-size: 4em;text-decoration: underline; float: left; padding-bottom: 1em;}
+	a{font-size: 3.5em;text-decoration: underline; float: left; padding-bottom: 1em;}
 	.sidenav a{font-size: 5em;padding-bottom: 0;}
 	.sidenav li{margin-bottom: 15em;}
 	.sidenav ul{margin-left: 20em;}
