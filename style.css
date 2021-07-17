@@ -141,9 +141,9 @@ margin-left: 30em;
 @media only screen and (min-device-width: 280px) and (max-device-width: 767px) {
 	.container{ justify-content: space-around;}
 	body{background-color: rgba(95, 95, 95, 0.05);font-size:1rem;} 
-	.leftpage{order: 2; background-color: unset;/*flex-basis: 10%;*/ padding-left: 0; margin-left: 0; margin-top: 3rem; width: 20%; height: 4rem; }
-	.rightpage{order: 3;background-color: unset; /*flex-basis: 10%;*/ padding-left: 0; margin-left: 0;margin-top: 3rem;width: 20%; height: 4rem; }
-	.firstpage{order: 1; padding-left: 0; padding-right: 0;margin-left: 10%; margin-right: 10%; }
+	.leftpage{order: 2; background-color: unset; padding-left: 0; margin-left: 0; margin-top: 3rem; width: 20%; height: 4rem; }
+	.rightpage{order: 3;background-color: unset; padding-left: 0; margin-left: 0;margin-top: 3rem;width: 20%; height: 4rem; }
+	.firstpage{order: 1; padding-left: 0; padding-right: 0;margin-left: 10%; margin-right: 10%; margin-top: 1rem;}
 	a{text-decoration: underline; float: left;font-size: 1.5rem; padding-left: 0; margin: 0; padding: 0;}
 	li{padding-left: 0; padding-top: 0;}
 	ul{padding-right: 0; margin:0 0;padding-left: 0; }
