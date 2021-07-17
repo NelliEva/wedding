@@ -1,3 +1,6 @@
+html { 
+	font-size:100%; 
+}
 body{
 	 animation: fadeInAnimation ease 3s;
      animation-iteration-count: 1;
@@ -13,6 +16,7 @@ body{
      }
 }
 img {
+	max-width: 100%; height: auto; 
 	width: 400px;
 	height:600px;
 	box-shadow: 5px 7px rgba(134, 140, 145, 0.3);
@@ -26,12 +30,13 @@ img {
 	justify-content: space-between;
 	
 }
+
 .firstpage{
 	display: flex;
 	flex-wrap: wrap;
-
 	margin-left: 2em;
 	margin-right: 2em;
+
 }
 .leftpage{
 	display: flex;
@@ -39,6 +44,7 @@ img {
 	width: 400px;
 	height: 600px;
 	background-color: rgba(95, 95, 95, 0.05);
+	
 
 	
 	}
@@ -49,6 +55,7 @@ img {
 	width: 400px;
 	height: 600px;
 	background-color: rgba(95, 95, 95, 0.05);
+
 }
 li{
 	list-style-type: none;
@@ -56,16 +63,12 @@ li{
 	padding-top: 10em;
 	padding-left: 8em;
 	padding-bottom: 0px;
-
-
-
-
 }
 a{
 	color: black;
 	text-decoration: none;
 	font-family: 'Crimson Text', serif;
-	font-size: 30px;
+	font-size: 2rem;
 	color:rgba(95, 95, 95, 0.2);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:rgba(117, 159, 84, 0.5);
@@ -134,7 +137,39 @@ margin-left: 30em;
 .btn{
 	text-align: center;
 }
-@media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 768px) {
+	.container{ justify-content: space-around;}
+	body{background-color: rgba(95, 95, 95, 0.05);font-size:1rem;} 
+	.leftpage{order: 3; background-color: unset;/*flex-basis: 10%;*/ padding-left: 0; margin-left: 0; margin-top: 3rem; width: 30%; height: 4rem; }
+	.rightpage{order: 2;background-color: unset; /*flex-basis: 10%;*/ padding-left: 0; margin-left: 0;margin-top: 3rem;width: 30%; height: 4rem; }
+	.firstpage{order: 1; padding-left: 0; padding-right: 0;margin-left: 25%; margin-right: 25%; }
+	a{text-decoration: underline; float: left;font-size: 1.5rem; padding-left: 0; margin: 0; padding: 0;}
+	li{padding-left: 0; padding-top: 0;}
+	ul{padding-right: 0; margin:0 0;padding-left: 0; }
+	img{width: 15rem;height:20rem;}
+
+}
+
+
+
+/*@media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
+	.container{display: inline-block;}
+	body{background-color: rgba(95, 95, 95, 0.05);font-size:1rem;} 
+	img{width: 15rem;height:25rem; margin-right: 0; padding-right: 0px; border:1px solid rgba(134, 140, 145, 0.7); box-shadow: none;}
+	.firstpage{float: right; padding: 0;padding-left: 0rem; float: right; margin-right: 0rem;margin-left: 6.5rem;}
+	.leftpage{  float: left; width: 0.2rem;height: 2rem;padding-left: 0;  margin-left: 0; margin-bottom: 0; background-color: rgba(95, 95, 95, 0);}
+	.rightpage{ float:left; width: 0.3rem;height: 2rem; margin-top: 10rem; margin-right: 0; margin-left: 0; padding: 0; background-color: rgba(95, 95, 95, 0);}
+	li{padding-top: 4rem; padding-left: 0rem; margin-left: 0; }
+	a{text-decoration: underline; float: left; padding-bottom: 1em;font-size: 1.5rem;}
+	ul{padding-left: 0;}
+	.sidenav a{padding-bottom: 0;}
+	.sidenav li{margin-bottom: 15rem;}
+	.sidenav ul{margin-left: 20rem;}
+    .dropbtn{}
+}*/
+ 
+/* @media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
 	.container{display: inline-block;}
 	body{background-color: rgba(95, 95, 95, 0.05);}
 	img{width: 650px;height:1150px; margin-top: 1em; margin-right: 0px; padding-right: 0px; border:1px solid rgba(134, 140, 145, 0.7); box-shadow: none;}
@@ -147,8 +182,7 @@ margin-left: 30em;
 	.sidenav li{margin-bottom: 15em;}
 	.sidenav ul{margin-left: 20em;}
     .dropbtn{font-size: 3em; }
-}
- 
+}*/
  @media only screen and (min-device-width:1201px) and (max-device-width: 1281px){
  	.leftpage{width: 300px; height: 600px; }
  	.rightpage{width: 300px; height: 600px; }
