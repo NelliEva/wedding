@@ -43,9 +43,9 @@ h1{
 	margin-top: 2em;
 	background-color: rgba(0, 0, 0, 0.5);
 }
-.secondtext{
+.sectext{
 	float: right;
-	margin: 0 6em;
+	margin: 1rem 3.5rem;
 	color: white;
 	
 }
@@ -116,26 +116,27 @@ button{
 button:hover {
 	cursor: pointer;
 }
-@media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
-	h1{font-size: 12em; margin-right: 0em; margin-left: 0em; text-align: center; padding-left: 0;}
+@media only screen and (min-device-width: 280px) and (max-device-width: 767px) {
+	h1{ margin-right: 0em; margin-left: 0em; text-align: center; padding-left: 0;}
+	body{font-size:1rem;}
 	.firstblock{margin-right: 0px; padding-right: 0px;}
 	.rosering{display: none;}
-	.rose, .shadow { padding-right: 0px; margin-right: 0px; display: inline;}
-	.firsttext{width: 100%; font-size: 2.5em; text-align: center; margin-left: 0px;}
-	.secondblock{display: inline-block;  margin-left: 0; margin-right: 0em; padding-right: 2em; padding-left: 2em;}
-	.secondtext{float: none;width: 100%; font-size: 2.5em; display: inline; margin: 0px; padding-bottom: 0px; text-align: center;}
-	.secondimage{ margin:0; text-align: center; }
-	.alex{width: 700px ; height: 850px; padding-bottom: 6em; padding-top: 2em; margin-top: 0px;}
-	.thirdblock{display: inline-block;}
-	.thirdtext{width: 100%;text-align: center; font-size: 3.5em; margin-right:0; margin-left: 0px; background-image: url(paw.png); background-size: 1000px; background-repeat: no-repeat; }
-	.kna{width: 800px; height: 700px;}
+	.rose, .shadow { padding-right: 0px; margin-right: 0px; display: inline; width: 20rem; height:15rem; }
+	.firsttext{width: 100%;  text-align: center; margin-left: 0; margin-right: 0;}
+	.secondblock{ flex-direction: column; margin: 0 0; padding: 0 1rem;}
+	.sectext{float: none;width: 100%; padding: 0 0rem;  margin: 0 0;  text-align: center; }
+	.secondimage{ margin:0; padding-bottom: 2rem; text-align: center; }
+	.alex{width: 20rem; height: 25rem; margin-top: 0px;}
+	.thirdblock{}
+	.thirdtext{width: 100%;text-align: center; margin-right:0; margin-left: 0px; background-image: url(paw.png); background-size: 40rem; background-repeat: no-repeat; }
+	.kna{width: 20rem; height: 20rem;}
 	.paw{display: none;}
 	.foot{display: none;}
-	.forthblock{ display: inline-block; text-align: center; background-color: rgba(0, 0, 0, 0.3);  padding-right: 0; padding-left: 0;}
-	.forthtext{ float: none;width: 100%; font-size: 3.5em; display: inline; padding-bottom: 0; }
+	.forthblock{  text-align: center;  padding: 0 0; margin: 0 0;}
+	.forthtext{float: none;width: 100%; padding-bottom: 0; }
 	.imagefor{ text-align: center;}
-	.familly{width: 600px; height: 500px;}
-	button{width: 9em; height: 4em; font-size: 3em; color: rgba(0, 0, 0, 0.5); margin-top: 2em;}
+	.familly{width: 18rem; height: 18rem;}
+	button{color: rgba(0, 0, 0, 0.5);}
 	}
 @media only screen and (min-device-width:1201px) and (max-device-width: 1281px){
 	.secondblock{display: inline-block;}
