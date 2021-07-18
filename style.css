@@ -140,7 +140,8 @@ margin-left: 30em;
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 767px) {
 	.container{ justify-content: space-around;}
-	body{background-color: rgba(95, 95, 95, 0.05);font-size:1rem;} 
+	html{font-size:1rem;}
+	body{background-color: rgba(95, 95, 95, 0.05);} 
 	.leftpage{order: 2; background-color: unset; padding-left: 0; margin-left: 0; margin-top: 3rem; width: 20%; height: 4rem; }
 	.rightpage{order: 3;background-color: unset; padding-left: 0; margin-left: 0;margin-top: 3rem;width: 20%; height: 4rem; }
 	.firstpage{order: 1; padding:0 0;margin-left: 10%; margin-right: 10%; margin-top: 0.5rem;}
@@ -155,47 +156,32 @@ margin-left: 30em;
 
 }
 
-
-
-/*@media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
-	.container{display: inline-block;}
-	body{background-color: rgba(95, 95, 95, 0.05);font-size:1rem;} 
-	img{width: 15rem;height:25rem; margin-right: 0; padding-right: 0px; border:1px solid rgba(134, 140, 145, 0.7); box-shadow: none;}
-	.firstpage{float: right; padding: 0;padding-left: 0rem; float: right; margin-right: 0rem;margin-left: 6.5rem;}
-	.leftpage{  float: left; width: 0.2rem;height: 2rem;padding-left: 0;  margin-left: 0; margin-bottom: 0; background-color: rgba(95, 95, 95, 0);}
-	.rightpage{ float:left; width: 0.3rem;height: 2rem; margin-top: 10rem; margin-right: 0; margin-left: 0; padding: 0; background-color: rgba(95, 95, 95, 0);}
-	li{padding-top: 4rem; padding-left: 0rem; margin-left: 0; }
-	a{text-decoration: underline; float: left; padding-bottom: 1em;font-size: 1.5rem;}
-	ul{padding-left: 0;}
-	.sidenav a{padding-bottom: 0;}
-	.sidenav li{margin-bottom: 15rem;}
-	.sidenav ul{margin-left: 20rem;}
-    .dropbtn{}
-}*/
- 
-/* @media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
-	.container{display: inline-block;}
-	body{background-color: rgba(95, 95, 95, 0.05);}
-	img{width: 650px;height:1150px; margin-top: 1em; margin-right: 0px; padding-right: 0px; border:1px solid rgba(134, 140, 145, 0.7); box-shadow: none;}
-	.firstpage{float: right; padding-right: 0;float: right; margin-right: 1em;margin-top: 2em;}
-	.leftpage{  float: left; width: 250px;height: 400px; margin-left: 0px;padding-top: 17em; background-color: rgba(95, 95, 95, 0);}
-	.rightpage{ float:left; width: 250px;height: 400px;margin-top: 0; margin-right: 0px; margin-left: 0px; padding: 0px; background-color: rgba(95, 95, 95, 0);}
-	li{padding-top: 5em; padding-left: 0;}
-	a{font-size: 3.5em;text-decoration: underline; float: left; padding-bottom: 1em;}
-	.sidenav a{font-size: 5em;padding-bottom: 0;}
-	.sidenav li{margin-bottom: 15em;}
-	.sidenav ul{margin-left: 20em;}
-    .dropbtn{font-size: 3em; }
-}*/
- @media only screen and (min-device-width:1201px) and (max-device-width: 1281px){
+/* @media only screen and (min-device-width:1200px){
+ 	html{font-size:1.5rem}
  	.leftpage{width: 300px; height: 600px; }
  	.rightpage{width: 300px; height: 600px; }
  	.firstpage{margin-left: 0; margin-right: 0;}
  	li{padding-left: 4em;}
+ }*/
+
+ @media only screen and (min-device-width:1900px){
+ 	html{font-size: 2rem;}
+ 	li{padding: 3rem 0;}
+ 	ul{margin: 0;}
+ 	.container{ align-items: center; justify-content: center; /* margin-top: 0; margin-left: -2%;*/}
+ 	.leftpage{/*width: 600px; height: 1500px;*/ /*flex-grow:0;*/padding-left: 0; padding-right: 0;}
+ 	.firstpage{/*margin-top: 7em;*/ padding-left: 0; padding-right: 0}
+ 	img{/*width: 600px; height: 1200px;*/}
+ 	.rightpage{/*width: 600px; height: 1500px;flex-grow: 0;*/padding-left: 0; padding-right: 0}
+ 	a{/*font-size: 5em;*/ line-height: 3rem;/*padding-left: 1rem;*/}
+ 	.sidenav a{/*font-size: 5em; */}
+	.sidenav ul{/*margin-left: 60em;*/}
+	 .dropbtn{/*font-size: 3em;*/ }	
  }
 
- @media only screen and (min-device-width:1920px) and (max-device-width: 4000px){
- 	.container{ align-items: center; margin-top: 0; margin-left: -2%;}
+
+
+ 	/*.container{ align-items: center; margin-top: 0; margin-left: -2%;}
  	.leftpage{width: 600px; height: 1500px; flex-grow:0;padding-left: 0; padding-right: 0;}
  	.firstpage{margin-top: 7em; padding-left: 0; padding-right: 0}
  	img{width: 600px; height: 1200px;}
@@ -203,5 +189,4 @@ margin-left: 30em;
  	a{font-size: 5em; line-height: 3em;padding-left: 1em;}
  	.sidenav a{font-size: 5em; }
 	.sidenav ul{margin-left: 60em;}
-	 .dropbtn{font-size: 3em; }	
- }
+	 .dropbtn{font-size: 3em; }	*/
