@@ -157,11 +157,11 @@ margin-left: 30em;
 }
 
  @media only screen and (min-device-width:768px)and (max-device-width: 1366px) {
- /*	html{font-size:1.5rem}
- 	.leftpage{width: 300px; height: 600px; }
- 	.rightpage{width: 300px; height: 600px; }
+ 	html{font-size:1.2rem}
+ 	.leftpage{width: 15rem;  }
+ 	.rightpage{width: 15rem; }
  	.firstpage{margin-left: 0; margin-right: 0;}
- 	li{padding-left: 4em;}*/
+ 	li{padding-left: 4rem; }
  }
 
  @media only screen and (min-device-width:1900px){
