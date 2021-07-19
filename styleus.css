@@ -1,9 +1,11 @@
+html { 
+	font-size:100%; 
+}
 body{
 	background-color: rgba(255, 192, 167, 0.1);
      animation: fadeInAnimation ease 3s;
      animation-iteration-count: 1;
      animation-fill-mode: forwards;
-
 }
 @keyframes fadeInAnimation {
     0% {
@@ -20,7 +22,7 @@ h1{
 	font-family: 'Indie Flower', cursive;
 	color: rgba(255, 192, 167, 0.7);
 	font-style: italic;
-	font-size: 5em;
+	font-size: 5rem;
 	text-decoration: underline;
 }
 .firstblock{
@@ -33,14 +35,14 @@ h1{
 .firsttext{
 	display: flex;
 	align-items: center;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 .secondblock{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 2em;
+	margin-top: 2rem;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 .sectext{
@@ -54,7 +56,7 @@ h1{
 }
 
 .thirdblock {
-	margin-top: 2em;
+	margin-top: 2rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -62,8 +64,8 @@ h1{
 
 }
 .thirdtext{
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 .thirdimage{
 	display: flex;
@@ -77,36 +79,36 @@ h1{
 	flex-direction: column;
 }
 .forthtext{
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: 1rem;
+	margin-right: 1rem;
 	 background-color: rgba(0, 0, 0, 0.5);
 	 color: white;
 }
 .paw {
-	padding-right: 5em;
-	padding-left: 0px;
+	padding-right: 5rem;
+	padding-left: 0;
 }
 .foot{
-	padding-right: 0px;
-	padding-left: 5em;
+	padding-right: 0;
+	padding-left: 5rem;
 }
 .imagefor{
-    margin-bottom: 4em;
+    margin-bottom: 4rem;
 }
 p{
 	font-style: italic;
 	font-family: 'Indie Flower', cursive;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	line-height: 2;
 }
 button{
 	border-radius:  10% / 50%;
 	background-color: rgba(255, 192, 167, 0.1);
 	color: rgba( 0, 0, 0, 0.5);
-	width: 10em;
-	height: 4em;
-	margin-bottom: 1em;
-	font-size: 1.2em;
+	width: 10rem;
+	height: 4rem;
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	font-family: 'Indie Flower', cursive;
 }
@@ -117,18 +119,17 @@ button:hover {
 	cursor: pointer;
 }
 @media only screen and (min-device-width: 280px) and (max-device-width: 767px) {
-	h1{ margin-right: 0em; margin-left: 0em; text-align: center; padding-left: 0;}
-	body{font-size:1rem;}
-	.firstblock{margin-right: 0px; padding-right: 0px;}
+	html{font-size: 1rem;}
+	h1{ margin:0; text-align: center; /*padding-left: 0;*/}
 	.rosering{display: none;}
-	.rose, .shadow { padding-right: 0px; margin-right: 0px; display: inline; width: 20rem; height:15rem; }
+	.rose, .shadow { padding-right: 0; margin-right: 0; display: inline; width: 20rem; height:15rem; }
 	.firsttext{width: 100%;  text-align: center; margin-left: 0; margin-right: 0;}
 	.secondblock{ flex-direction: column; margin: 0 0; padding: 0 1rem;}
 	.sectext{float: none;width: 100%; padding: 0 0rem;  margin: 0 0;  text-align: center; }
 	.secondimage{ margin:0; padding-bottom: 2rem; text-align: center; }
-	.alex{width: 20rem; height: 25rem; margin-top: 0px;}
+	.alex{width: 20rem; height: 25rem; margin-top: 0;}
 	.thirdblock{}
-	.thirdtext{width: 100%;text-align: center; margin-right:0; margin-left: 0px; background-image: url(paw.png); background-size: 40rem; background-repeat: no-repeat; }
+	.thirdtext{width: 100%;text-align: center; margin-right:0; margin-left: 0; background-image: url(paw.png); background-size: 40rem; background-repeat: no-repeat; }
 	.kna{width: 20rem; height: 20rem;}
 	.paw{display: none;}
 	.foot{display: none;}
@@ -138,24 +139,20 @@ button:hover {
 	.familly{width: 18rem; height: 18rem;}
 	button{color: rgba(0, 0, 0, 0.5);}
 	}
-@media only screen and (min-device-width:1201px) and (max-device-width: 1281px){
+@media only screen and (min-device-width:768px) and (max-device-width: 1365px){
+	html{font-size: 1.2rem;}
 	.secondblock{display: inline-block;}
 	.secondtext{float: none; margin-right: 2em; margin-left: 2em; }
     .secondimage{text-align: center; margin-bottom: 2em; margin-right: 0;}
 }
-@media only screen and (min-device-width: 1900px)and (max-device-width: 4000px) {
-	h1{font-size: 12em;}
-	.rose, .shadow{width: 900px; height: 900px;}
-	.rosering{width: 750px; height: 850px;}
-	.firsttext, .secondtext{font-size: 3em;}
-	.secondblock{display: inline-block;}
-	.secondtext{float: none; margin-right: 2em; margin-left: 2em; }
-    .secondimage{text-align: center;}
-	.alex{width: 900px; height: 1150px; margin-right: 0; text-align: center; padding-bottom: 4em;}
-	.thirdtext, .forthtext{font-size: 5em;}
-	.pawpic{width: 500px; height: 500px; }
-	.kna{width: 1000px; height: 900px;}
-	.footpic{width: 500px; height: 500px;}
-	.familly{width: 900px; height: 800px;}
-	button{width: 8em; height: 3em; font-size: 3em;}
+@media only screen and (min-device-width: 1900px) {
+	html{font-size: 1.5rem;}
+	.rose, .shadow{width: 35rem; height: 35rem;}
+	.rosering{width: 25rem; height: 30rem;}
+	.sectext{line-height: 300%;}
+	.alex{width: 27rem; height: 36rem;}
+	.pawpic{width: 15rem; height: 15rem; }
+	.kna{width: 35rem; height: 30rem;}
+	.footpic{width: 15rem; height: 15rem;}
+	.familly{width: 25rem; height: 25rem;}
 }
