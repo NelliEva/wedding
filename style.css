@@ -39,7 +39,6 @@ img {
 
 }
 .leftpage{
-	display: flex;
 	width: 25rem;
 	height: 40rem;
 	background-color: rgba(95, 95, 95, 0.05);
@@ -49,7 +48,6 @@ img {
 	
 	}
 .rightpage{
-	display: flex;
 	flex-wrap: wrap;
 	width: 25rem;
 	height: 40rem;
@@ -58,11 +56,13 @@ img {
 
 
 }
+ul{
+	 text-align: center;
+}
 li{
 	list-style-type: none;
 	text-align: center;
-	padding-top: 10em;
-	padding-left: 8em;
+	padding-top: 10rem;
 	padding-bottom: 0px;
 }
 a{
@@ -73,14 +73,11 @@ a{
 	color:rgba(95, 95, 95, 0.2);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:rgba(117, 159, 84, 0.5);
-
 }
 a:hover{
 	background-color: white;
 	color: black;
 	text-decoration: underline;
-
-
 }
 .sidenav {
   height: 100%;
@@ -102,22 +99,13 @@ a:hover{
   color: white;
   display: inline-block;
   transition: 0.3s;
-  
-
 }
 .sidenav li{
 	padding: 1rem 0;
 	margin: 0;
 	text-align: center;
 	width: 100%;
-/*	width: 20rem;
-	height: 2rem;*/
 	margin-right: 0;
-
-
-}
-.sidenav ul{
-/*margin-left: 30rem;*/
 }
 .sidenav .closebtn {
   position: absolute;
@@ -143,12 +131,12 @@ a:hover{
 }
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 767px) {
-	.container{ justify-content: space-around;}
 	html{font-size:1rem;}
 	body{background-color: rgba(95, 95, 95, 0.05);} 
-	.leftpage{order: 2; background-color: unset; padding-left: 0; margin-left: 0; margin-top: 3rem; width: 20%; height: 4rem; }
-	.rightpage{order: 3;background-color: unset; padding-left: 0; margin-left: 0;margin-top: 3rem;width: 20%; height: 4rem; }
-	.firstpage{order: 1; padding:0 0;margin-left: 10%; margin-right: 10%; margin-top: 0.5rem;}
+	.container{ justify-content: space-around;}
+	.leftpage{order: 2; background-color: unset; margin-top: 3rem; width: 20%; height: 4rem; }
+	.rightpage{order: 3;background-color: unset; margin-top: 3rem;width: 20%; height: 4rem; }
+	.firstpage{order: 1;margin-left: 10%; margin-right: 10%; margin-top: 0.5rem;}
 	a{text-decoration: underline; float: left;font-size: 1.5rem;margin: 0; padding: 0 0;}
 	li{padding-left: 0; padding-top: 0;}
 	ul{padding-right: 0; margin:0;padding-left: 0; }
@@ -162,28 +150,10 @@ a:hover{
  	.rightpage{width: 9rem; }
  	.firstpage{margin: 4rem 0;}
  	img{width: 20rem; height: 30rem;}
- 	li{padding-left: 0.5rem; }	
  }
 
  @media only screen and (min-device-width:1900px){
  	html{font-size: 1.5rem;}
- 	ul{margin: 0;}
- 	.container{ align-items: center;}
- 	.leftpage{padding-left: 0; padding-right: 0;}
- 	.firstpage{ padding-left: 0; padding-right: 0}
  	img{width: 25rem; height: 40rem;}
- 	.rightpage{padding-left: 0; padding-right: 0}
  	a{line-height: 3rem;}
  }
-
-
-
- 	/*.container{ align-items: center; margin-top: 0; margin-left: -2%;}
- 	.leftpage{width: 600px; height: 1500px; flex-grow:0;padding-left: 0; padding-right: 0;}
- 	.firstpage{margin-top: 7em; padding-left: 0; padding-right: 0}
- 	img{width: 600px; height: 1200px;}
- 	.rightpage{width: 600px; height: 1500px;flex-grow: 0;padding-left: 0; padding-right: 0}
- 	a{font-size: 5em; line-height: 3em;padding-left: 1em;}
- 	.sidenav a{font-size: 5em; }
-	.sidenav ul{margin-left: 60em;}
-	 .dropbtn{font-size: 3em; }	*/
