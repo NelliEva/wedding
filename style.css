@@ -150,6 +150,7 @@ a:hover{
  	.rightpage{width: 9rem; }
  	.firstpage{margin: 4rem 0;}
  	img{width: 20rem; height: 30rem;}
+ 	ul{padding-left: 0rem;}
  }
 
  @media only screen and (min-device-width:1900px){
