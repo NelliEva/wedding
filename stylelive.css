@@ -19,13 +19,6 @@ body{
 	padding-top: 0px;
 	font-family: 'Indie Flower', cursive;
 }
-.video{
-	text-align: center;
-	justify-content: center;
-	margin-bottom: 0;
-	padding-bottom: 0;	
-}
-
 p{
 	margin-top: 0;
 	padding-top: 0;
@@ -47,20 +40,11 @@ button:hover {
 	cursor: pointer;
 
 }
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
-    }
-}
-
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
-    }
-}
 @media only screen and (min-device-width: 280px) and (max-device-width: 767px) {
 	html{font-size:1rem;}
 	#demo{margin-right: 1em; margin-left: 1em;}
+	.video{margin-bottom: 0;padding-bottom: 3rem;overflow:hidden;padding-bottom:56.25%;position:relative;height:0;}
+    .vid{left:0;top:0;height:100%;width:100%;position:absolute;}
 }
 @media only screen and (min-device-width:768px)and (max-device-width: 1365px){
 	html{font-size: 1.2rem;}
