@@ -48,6 +48,7 @@ img {
 	
 	}
 .rightpage{
+	display: flex;
 	flex-wrap: wrap;
 	width: 25rem;
 	height: 40rem;
@@ -130,7 +131,7 @@ a:hover{
 	text-align: center;
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 280px)and (max-device-width: 767px) {
 	html{font-size:1rem;}
 	body{background-color: rgba(95, 95, 95, 0.05);} 
 	.container{ justify-content: space-around;}
