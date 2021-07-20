@@ -125,10 +125,12 @@ button:hover {
 	h3{margin-left: 0; margin-top: 6rem;}
 	.img00{ width: 25rem; height: 25rem;}
 	hr{margin:1rem 1rem; border-color: rgba(0, 0, 0, 0.3);}
+	.container{margin: 0 0;}
 	.img1,.img2, .img3, .img4{width: 20rem; height: 20rem;}
 	.img4{margin-bottom: 3rem; margin-top: 1rem;}
 	.img1{margin-top: 0;}
-	.p1,.p3, .p2, .p4{ width: 100%; border-radius: 0;margin-top: 1rem;}
+	.p1,.p3, .p2, .p4{ width: 100%; border-radius: 0;margin-top: 1rem; padding: 0 1rem;}
+	p{padding-top: 0;}
 	}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1365px){
 	html{font-size: 1.2rem}
