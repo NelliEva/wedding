@@ -120,7 +120,7 @@ button:hover {
 }
 @media only screen and (min-device-width: 280px) and (max-device-width: 767px) {
 	html{font-size: 1rem;}
-	h1{ margin:0; text-align: center; /*padding-left: 0;*/}
+	h1{ margin:0; text-align: center;}
 	.rosering{display: none;}
 	.rose, .shadow { padding-right: 0; margin-right: 0; display: inline; height:15rem; }
 	.firsttext{width: 100%;  text-align: center; margin-left: 0; margin-right: 0;}
