@@ -21,31 +21,24 @@ img {
 	height:600px;
 	box-shadow: 5px 7px rgba(134, 140, 145, 0.3);
 	border: 1px solid rgba(134, 140, 145, 0.7);
- 
 }
 .container{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
-	
 }
-
 .firstpage{
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: 1rem;
 	margin-right: 1rem;
-
 }
 .leftpage{
 	width: 25rem;
 	height: 40rem;
 	background-color: rgba(95, 95, 95, 0.05);
 	padding-right: 0.5rem;
-	
-
-	
 	}
 .rightpage{
 	display: flex;
@@ -54,8 +47,6 @@ img {
 	height: 40rem;
 	background-color: rgba(95, 95, 95, 0.05);
 	padding-right: 0.5rem;
-
-
 }
 ul{
 	 text-align: center;
