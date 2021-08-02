@@ -122,7 +122,7 @@ button:hover {
 	html{font-size: 1rem;}
 	h1{ margin:0; text-align: center;}
 	.rosering{display: none;}
-	.rose, .shadow { padding-right: 0; margin-right: 0; display: inline;width: 11rem; height:15rem; }
+	.rose,.shadow {order: 1; padding-right: 0; margin-right: 0;width: 11rem; height:11rem; }
 	.firsttext{width: 100%;  text-align: center; margin-left: 0; margin-right: 0;}
 	.secondblock{ flex-direction: column; margin: 0 0; padding: 0 1rem;}
 	.sectext{float: none;width: 100%; padding: 0 0rem;  margin: 0 0;  text-align: center; }
@@ -130,7 +130,7 @@ button:hover {
 	.alex{width: 20rem; height: 25rem; margin-top: 0;}
 	.thirdblock{}
 	.thirdtext{width: 100%;text-align: center; margin-right:0; margin-left: 0; background-image: url(paw.png); background-size: 40rem; background-repeat: no-repeat; }
-	.kna{width: 20rem; height: 20rem;}
+	.kna{width: 15rem; height: 15rem;}
 	.paw{display: none;}
 	.foot{display: none;}
 	.forthblock{  text-align: center;  padding: 0 0; margin: 0 0;}

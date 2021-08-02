@@ -48,6 +48,9 @@ img {
 	background-color: rgba(95, 95, 95, 0.05);
 	padding-right: 0.5rem;
 }
+.rightpage ul{
+	margin-left: 8rem;
+}
 ul{
 	 text-align: center;
 }
@@ -128,8 +131,9 @@ a:hover{
 	.container{ justify-content: space-around;}
 	.leftpage{order: 2; background-color: unset; margin-top: 3rem; width: 20%; height: 4rem; }
 	.rightpage{order: 3;background-color: unset; margin-top: 3rem;width: 20%; height: 4rem; }
+	.rightpage ul{margin-left: 0;}
 	.firstpage{order: 1;margin-left: 10%; margin-right: 10%; margin-top: 0.5rem;}
-	a{text-decoration: underline; float: left;font-size: 1.5rem;margin: 0; padding: 0 0;}
+	a{text-decoration: underline; float: left;margin: 0; padding: 0 0;}
 	li{padding-left: 0; padding-top: 0;}
 	ul{padding-right: 0; margin:0;padding-left: 0; }
 	img{width: 30rem;height:33rem;}
@@ -141,6 +145,7 @@ a:hover{
  	.leftpage{width: 9rem; }
  	.rightpage{width: 9rem; }
  	.firstpage{margin: 4rem 0;}
+ 	.rightpage ul{margin-left: 2rem;}
  	img{width: 20rem; height: 30rem;}
  	ul{padding-left: 0rem;}
  }
@@ -149,4 +154,5 @@ a:hover{
  	html{font-size: 1.5rem;}
  	img{width: 25rem; height: 40rem;}
  	a{line-height: 3rem;}
+ 	.rightpage ul{margin-left: 8rem; }
  }
