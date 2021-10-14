@@ -147,6 +147,8 @@ button:hover {
 	.kna{width: 15rem; height: 15rem;}
 	.rose, .shadow{width:20rem; height:20rem;}
 	.rosering{width:10rem; height: 15rem;}
+	.paw{padding-right: 0;}
+	.foot{padding-left: 0;}
 }
 @media only screen and (min-device-width: 1900px) {
 	html{font-size: 1.5rem;}
