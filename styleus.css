@@ -145,6 +145,8 @@ button:hover {
 	.secondtext{float: none; margin-right: 2em; margin-left: 2em; }
         .secondimage{text-align: center; margin-bottom: 2em; margin-right: 0;}
 	.kna{width: 15rem; height: 15rem;}
+	.rose, .shadow{width:20rem; height:20rem;}
+	.rosering{width:10rem; height: 15rem;}
 }
 @media only screen and (min-device-width: 1900px) {
 	html{font-size: 1.5rem;}
